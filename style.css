@@ -1,3 +1,9 @@
+:root {
+  --cor-primaria-success: rgb(75, 200, 138);
+  --cor-hover-success: rgb(116, 158, 137);
+  --cor-secundaria-success: rgb(27, 66, 50);
+  
+ }
 
 html,body {
   font-family: 'Nunito', sans-serif;
@@ -5,7 +11,41 @@ html,body {
 }
 
 #principal {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.897);
   color: #fffaff;
+  overflow: auto;
 }
 
+.principal h1 {
+  color: #00ffff;
+  padding: 0.8rem;
+  margin: 2rem;
+  
+}
+.container-input-gasolina {
+  color: #7fff00;
+
+}
+
+.container-input-alcool {
+  color: #dc143c; 
+}
+
+
+
+  .btn-calcular {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--cor-primaria-success);
+  outline: none;
+  color: var(--cor-secundaria-success)
+
+  
+}
+
+.resultado {
+
+}

@@ -69,13 +69,6 @@ html,body {
   align-content: normal;
 }
 
-.container-input label {
-  display: block;
-  margin: 1rem 0;
-  text-align: center;
-
-}
-
 .container-input input {
 width: 100%;
 padding: 0.6rem;
